@@ -110,7 +110,7 @@ export default defineComponent({
 })
 ```
 
-Now this `pokemon` data is accessible to downstream steps within `steps.code.pokemon`
+Now this `pokemon` data is accessible to downstream steps within `steps.node.pokemon`
 
 ::: warning
 Regardless of using `return` or `$.export`, can only export JSON-serializable data from steps. Things like:
